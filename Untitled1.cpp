@@ -44,15 +44,15 @@ int main(){
         cout <<"The circumference of the square is: " << c <<endl;
     }
     else if (x == 3){
-        int a;
+        char a;
         cout << "Enter e-even triangle, s-square triangle, n-normal triangle: ";
         cin >> a;
-        if(a == 'b'){
+        if(a == 'e'){
             double b;
             cout << "Enter edge of even triangle: ";
             cin >> b;
-            s = a*a*sqrt(3)/4;
-            c = a*3;
+            s = b*b*sqrt(3)/4;
+            c = b*3;
             cout <<"The area of the even triangle is: " << s <<endl;
             cout <<"The circumference of the even triangle is: " << c << endl;
         }
